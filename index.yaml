@@ -3,6 +3,16 @@ entries:
   bookinfo-istio:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2022-02-04T04:02:39.870431569Z"
+    description: A Helm chart for Kubernetes
+    digest: 7c20d32f9a4c0d7b29e5d69578efe7694c377922e0ea9834459a2df1fcedf871
+    name: bookinfo-istio
+    type: application
+    urls:
+    - https://github.com/dvpatel/helm-charts/releases/download/bookinfo-istio-0.1.4/bookinfo-istio-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2022-02-04T03:59:04.49878276Z"
     description: A Helm chart for Kubernetes
     digest: 061bf79b832b474a29034a3b85c34e27d74a94c44de2292e44d8a00001c9a18b
@@ -41,4 +51,4 @@ entries:
     urls:
     - https://github.com/dvpatel/helm-charts/releases/download/bookinfo-istio-0.1.0/bookinfo-istio-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-04T03:59:04.49880206Z"
+generated: "2022-02-04T04:02:39.870447769Z"
