@@ -1,0 +1,15 @@
+##################################################################################################
+# Ratings service
+##################################################################################################
+apiVersion: v1
+kind: Service
+metadata:
+  name: ratings
+  labels:
+    app: ratings
+    service: ratings
+spec:
+{{ include "bookinfo.ports" . | indent 2 }}
+  selector:
+    app: ratings
+---
