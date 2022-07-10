@@ -61,4 +61,40 @@ entries:
     urls:
     - https://github.com/dvpatel/helm-charts/releases/download/bookinfo-istio-0.1.0/bookinfo-istio-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-04T04:08:06.341105778Z"
+  consul-bg:
+  - annotations:
+      artifacthub.io/images: |
+        - name: consul
+          image: hashicorp/consul:1.12.2
+        - name: consul-k8s-control-plane
+          image: hashicorp/consul-k8s-control-plane:0.45.0
+        - name: envoy
+          image: envoyproxy/envoy:v1.22.2
+      artifacthub.io/license: MPL-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://www.consul.io/docs/k8s
+        - name: hashicorp/consul
+          url: https://github.com/hashicorp/consul
+        - name: hashicorp/consul-k8s
+          url: https://github.com/hashicorp/consul-k8s
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/signKey: |
+        fingerprint: C874011F0AB405110D02105534365D9472D7468F
+        url: https://keybase.io/hashicorp/pgp_keys.asc
+    apiVersion: v2
+    appVersion: 1.12.2
+    created: "2022-07-10T22:50:04.596482736Z"
+    description: HashiCorp Consul Chart Fork - Multi version installs
+    digest: b1c380eb73d0fd85e3246d68753c9fa69e8ffa50fbfa90bcad8d48f357e0280b
+    home: https://www.consul.io
+    icon: https://raw.githubusercontent.com/hashicorp/consul-k8s/main/assets/icon.png
+    kubeVersion: '>=1.19.0-0'
+    name: consul-bg
+    sources:
+    - https://github.com/hashicorp/consul
+    - https://github.com/hashicorp/consul-k8s
+    urls:
+    - https://github.com/dvpatel/helm-charts/releases/download/consul-bg-1.0.0/consul-bg-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-07-10T22:50:04.596508837Z"
